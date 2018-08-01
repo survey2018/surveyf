@@ -1,1 +1,17 @@
-<SCRIPT Language="Javascript"> <!-- function Randomlink() { Url = new Array; Url[0] = "http://www.ccm.net/index.php3"; Url[1] = "http://www. ccm.net/wifi"; Url[2] = "http://www. ccm.net/php"; Url[3] = "http://www. ccm.net/forum/"; Chooselink = Math.round(Math.random() * (Url.length+1)); window.open(Url[Chooselink],'_blank'); } //--> </SCRIPT>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+if (Math.random() < 0.5) {
+    text = "<a href='https://w3schools.com'>Visit W3Schools</a>";
+} else {
+    text = "<a href='https://wwf.org'>Visit WWF</a>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
