@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*3)
+    var link1="https://docs.google.com/forms/d/e/1FAIpQLSfnloUtlEP0koLAf14Rd6DNKQ7owER_hd7dQoJV6hiJDIu-cA/viewform"
+    var link2="https://docs.google.com/forms/d/e/1FAIpQLSebYSaS02Lt11VOWTCXBpMSNIlwefwVsDab58KWmuXA614pOA/viewform"
+    var link3="https://docs.google.com/forms/d/e/1FAIpQLSdOd0Pay4H9vMoPMAizN_bJRsAVAeHO2WKuuTE3DzFbFVSeUA/viewform"
+    var link4="https://docs.google.com/forms/d/e/1FAIpQLSfatlMFQSwimfbb2RLF3eXDd-H_3GHrgsj8tR8dIVjxFFTT2g/viewform"
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+    else if (myrandom==2)
+        window.location=link3
+    else if (myrandom==3)
+        window.location=link4
+}
+</script>
+<form>
+<input type="button" value="Cliquez ici pour commencer l'étude !" onClick="randomlinks()">
+</form>
+</body>
+</html>
